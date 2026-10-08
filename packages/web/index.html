@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="pt-BR">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Geist:wght@300..700&family=Geist+Mono:wght@400..600&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet" />
+		<title>NeonStack Studio — Sites, landing pages e marcas que vendem</title>
+		<meta name="description" content="Breno Silva — sites, landing pages, identidade visual e convites digitais com foco em conversão. Do briefing ao deploy. Rio de Janeiro, atendimento em todo o Brasil." />
+		<meta name="theme-color" content="#0A0A09" />
+		<meta property="og:title" content="NeonStack Studio — Sites e marcas que vendem por você" />
+		<meta property="og:description" content="Sites, landing pages, identidade visual e convites digitais. Do briefing ao deploy." />
+		<meta property="og:type" content="website" />
+		<meta property="og:image" content="/og-image.jpg" />
+		<meta property="og:locale" content="pt_BR" />
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta name="twitter:image" content="/og-image.jpg" />
+		<script>
+			try {
+				var t = localStorage.getItem("ns-theme") || "dark";
+				if (t === "dark") document.documentElement.classList.add("dark");
+				var l = localStorage.getItem("ns-lang");
+				if (l === "en") document.documentElement.lang = "en";
+			} catch (e) { document.documentElement.classList.add("dark"); }
+		</script>
+	</head>
+	<body>
+		<div id="root"></div>
+		<script type="module" src="/src/web/main.tsx"></script>
+	</body>
+</html>
